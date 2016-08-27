@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="80dp"
+            android:text="Navigate with Google"
+            android:id="@+id/button"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="113dp"
+            android:layout_marginStart="113dp"
+            android:layout_marginTop="420dp"
+            android:layout_gravity="right" />
+
+
+        <Button
+            android:layout_width="100px"
+            android:layout_height="50px"
+            android:text="Navigate with WAZE"
+            android:id="@+id/wazeButton"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="420dp"
+            android:layout_gravity="left" />
+
+        <fragment
+            android:id="@+id/map"
+            android:layout_width="1400px"
+            android:layout_height="2100px"
+            class="com.google.android.gms.maps.SupportMapFragment" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView"/>
+
+
+
+</RelativeLayout>
