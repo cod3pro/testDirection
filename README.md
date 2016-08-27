@@ -1,4 +1,4 @@
-<b>A simple Android application which shows routs between three user-specified points</b>
+# A simple Android application which shows routs between three user-specified points
 
 Detail: Whenever user clicks on map, a marker appears. After clicking three times and having three marker on the map, application shows the path between first point to second point, and from second point to third point.
 After that if user clicks on the map, previous markers will remove from map and app will wait for another three markers to show the paths between them.
